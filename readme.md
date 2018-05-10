@@ -1,3 +1,2 @@
 # chessvizP
-[![Build Status](https://travis-ci.org/dimkatet/chessvizP.svg?branch=master)](https://travis-ci.org/dimkatet/chessvizP)
-https://travis-ci.org/dimkatet/chessvizP
+[![Build Status](https://travis-ci.org/dimkatet/chessviz2.svg?branch=master)](https://travis-ci.org/dimkatet/chessviz2)
