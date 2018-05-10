@@ -97,7 +97,7 @@ CTEST(Kill_B, Correct) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Kill_B, Inorrect) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
