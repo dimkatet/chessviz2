@@ -6,7 +6,7 @@
 #include "board_test.c"
 #include <ctest.h>
 CTEST(Step_P, Correct) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -19,7 +19,7 @@ CTEST(Step_P, Correct) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Step_P, Inorrect) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -32,7 +32,7 @@ CTEST(Step_P, Inorrect) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Step_N, Correct) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -58,7 +58,7 @@ CTEST(Step_N, Inorrect) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Kill_P, Correct) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -71,7 +71,7 @@ CTEST(Kill_P, Correct) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Kill_P, Inorrect) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -84,7 +84,7 @@ CTEST(Kill_P, Inorrect) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Kill_B, Correct) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -110,7 +110,7 @@ CTEST(Kill_B, Inorrect) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Block_B, Correct) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
@@ -123,7 +123,7 @@ CTEST(Block_B, Correct) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Block_B, Inorrect) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
