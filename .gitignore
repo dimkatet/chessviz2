@@ -1,3 +1,4 @@
 $ cat .gitignore
 /build/*.o
 index.html
+*.ini
