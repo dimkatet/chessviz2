@@ -1,0 +1,9 @@
+b2-b3 d7-d6
+b3-b4 a7-a6
+e2-e3 e7-e6
+Nb1-c3 Ra8-a7
+Bc1-b2 Bc8-d7
+Ra1-c1 Bd7-a4
+Ng1-h3 Kd8-d7
+a2-a3 a6-a5
+g2-g3 Ba4-b3
