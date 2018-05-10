@@ -45,7 +45,7 @@ CTEST(Step_N, Correct) {
     ASSERT_EQUAL(exp, real);
 }
 CTEST(Step_N, Inorrect) {
-    int board[8][8]={0};
+    int board[8][8]={{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0}};
     FILE *f;
     Spis1 SpisP;
     f = fopen("../input.txt","w");
